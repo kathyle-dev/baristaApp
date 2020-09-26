@@ -1,0 +1,52 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+.bg{
+  background-image: url("https://dublinroasterscoffee.com/wp-content/uploads/2019/01/Dublin-Roasters-Beans.jpg");
+}
+.border{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#efefef;
+  border: 2px solid white;
+  border-radius: 8px;
+  height:60vh;
+}
+.profile{
+  background-color:#efefef;
+  border: 2px solid white;
+  border-radius: 8px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 85vh;
+}
+.jumbotron p{
+  margin-top: 1.5rem;
+}
+img{
+  height: 200px;
+}
+
+.flex{
+  display: flex;
+}
+.flex h3{
+  text-decoration: underline;
+}
+.ordered, .completed{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.orderId{
+  display: none;
+}
